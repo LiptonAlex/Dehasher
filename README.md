@@ -1,2 +1,3 @@
 # Dehasher
 This is a simple Python script that uses the built-in Hashlib library to interpret the hash after processing with the SHA3-256 algorithm.
+As you know, hash algorithms are one-way. But you can determine the hashed word by comparing the hash. The script includes a database of the most common words for passwords. To select the width of the database, change the file name "ignis-100K.txt" to "ignis-10K.txt" or "ignis-1M.txt" in the code. Insert the required hash into the hashed_message variable. To choose a different hashing algorithm, change the sha3_256 method in the hashed variable to the available method you need.
